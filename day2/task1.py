@@ -13,7 +13,7 @@ def verify_input(args):
         code = [int(x) for x in args.split(',')]
     except TypeError:
         print_help_and_exit()
-    
+
     return code
 
 
@@ -51,6 +51,6 @@ def do_intcode(code):
         current_position = current_position + 4
 
     return code
-            
+
 if __name__ == '__main__':
     main()
