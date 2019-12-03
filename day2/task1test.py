@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 import sys
 import unittest
-import task1 
+import task1
 
 class TestDay1(unittest.TestCase):
 
@@ -15,4 +15,4 @@ class TestDay1(unittest.TestCase):
 if __name__ == '__main__':
     unittest.main()
 
-    
+
