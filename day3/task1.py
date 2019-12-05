@@ -49,6 +49,8 @@ def find_where_wires_cross(coords1, coords2):
     based on their coordinates
     """
     matches = []
+    coords1 = set(coords1)
+    coords2 = set(coords2)
     for coord in coords1:
         if coord in coords2:
             matches.append(coord)
